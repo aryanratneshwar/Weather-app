@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Lobster&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <div class="app-wrap">
+        <div class="container">
+            Current time is <span id="time"></span>
+        </div>
+
+        <header>
+           
+            <input type="text" autocomplete="off" class="search-box" placeholder="Enter a city... ">
+            <div  class="err ">NOT Found, Please type valid city</div>
+            <div id='mar' class="err">Results of Previous Valid Search</div>
+        </header>
+        
+        <main>
+            <section class="location">
+                <div class="city">City , Country </div>
+                <div class="lonlan">Latitude°N/ Longitude°S</div>
+                <div class="date">Date</div>
+            </section>
+            <div class="current">
+                <div class="temp">Temp<span>°c</span></div>
+                <div class="weather">Climate</div>
+                <div class="hi-low">Min°c / High°c</div>
+                <div class="feel">Feels_like °c </div>
+            </div>
+        </main>
+        
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
